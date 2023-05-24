@@ -47,6 +47,9 @@ img.signature {
   width: 33%;
   padding-bottom: 3em;
 }
+hr {
+  clear: both;
+}
 .wrapper {
   background: #A15277;
   max-width: 960px;
@@ -82,10 +85,10 @@ img.signature {
 }
 .sidebar-wrapper .ensdomain {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 .sidebar-wrapper .tagline {
   color: rgba(255, 255, 255, 0.6);
