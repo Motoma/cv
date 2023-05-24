@@ -42,6 +42,10 @@ a:focus {
 p {
   line-height: 1.5;
 }
+img .signature {
+  float: right;
+  width: 33%;
+}
 .wrapper {
   background: #A15277;
   max-width: 960px;
@@ -74,6 +78,13 @@ p {
   font-weight: 900;
   margin-top: 0;
   margin-bottom: 10px;
+}
+.sidebar-wrapper .title {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .sidebar-wrapper .tagline {
   color: rgba(255, 255, 255, 0.6);
@@ -113,6 +124,17 @@ p {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 5px;
+}
+.sidebar-wrapper .title {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.sidebar-wrapper .company {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 0;
 }
 .sidebar-wrapper .education-container .item {
   margin-bottom: 15px;
@@ -157,6 +179,8 @@ p {
   padding: 60px;
   padding-right: 300px;
   page-break-before: always;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
@@ -166,6 +190,7 @@ p {
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
+  clear: right;
 }
 .main-wrapper .section-title .fa {
   width: 30px;
