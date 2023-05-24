@@ -42,7 +42,7 @@ a:focus {
 p {
   line-height: 1.5;
 }
-img .signature {
+img.signature {
   float: right;
   width: 33%;
 }
