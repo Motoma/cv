@@ -41,6 +41,11 @@ a:focus {
 }
 p {
   line-height: 1.5;
+  padding-bottom: 15px;
+  font-size: 15px;
+}
+li {
+  padding-bottom: 10px;
 }
 img.signature {
   float: right;
@@ -137,7 +142,7 @@ hr {
 .sidebar-wrapper .company {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
-  margin-bottom: 0px;
+  margin-bottom: 14px;
   margin-top: 0;
 }
 .sidebar-wrapper .education-container .item {
