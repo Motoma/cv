@@ -45,6 +45,7 @@ p {
 img.signature {
   float: right;
   width: 33%;
+  padding-bottom: 3em;
 }
 .wrapper {
   background: #A15277;
