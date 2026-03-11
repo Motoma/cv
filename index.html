@@ -1,351 +1,300 @@
 <!DOCTYPE html>
-<html lang="en"> 
-
+<html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.54.0" />
-    <title>Chris Gilbert | 0xgilbert.eth</title>
-    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chris Gilbert | 0xgilbert.eth">
+    <title>Chris Gilbert | 0xgilbert.eth</title>
+    <meta name="description" content="Chris Gilbert, CTO at Elixir Protocol. I build hyperstructures and decentralize things.">
     <meta name="author" content="Christopher Gilbert">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://100x.dev/assets/plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://100x.dev/assets/plugins/font-awesome/css/font-awesome.css">
-    <link id="theme-style" rel="stylesheet" href="https://100x.dev/assets/css/styles-4.css">
+    
+    <!-- Open Graph for SEO & Previews -->
+    <meta property="og:title" content="Chris Gilbert | 0xgilbert.eth">
+    <meta property="og:description" content="I build hyperstructures and decentralize things. CTO at Elixir Protocol.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://100x.dev">
+    
+    <!-- AI & Agent Crawlability -->
+    <link rel="alternate" type="text/markdown" href="/llms.txt">
+    <meta name="monetization" content="$ilp.uphold.com/..."> <!-- Placeholder for standard tags -->
 
-    <script type="application/javascript">
-        var doNotTrack = false;
-        if (!doNotTrack) {
-            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-            ga('create', 'UA-1667338-6', 'auto');
-            ga('send', 'pageview');
-        }
-    </script>
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico">
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="sidebar-wrapper">
-
-		    <div class="profile-container">
-                <img class="profile img-circle" src="https://100x.dev/assets/images/photo.jpg" alt="" />
-                <h1 class="name">Chris&nbsp;Gilbert</h1>
-                <h2 class="ensdomain">0xgilbert.eth</h2>
-                <h3 class="tagline">I build hyperstructures and decentralize things.</h3>
-            </div>
-		
-		    <div class="contact-container container-block">
-                <ul class="list-unstyled contact-list">
-				
-                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:%20chris@100x.dev">chris@100x.dev</a></li>
-                    <li class="website"><i class="fa fa-globe"></i><a href="https://100x.dev">100x.dev</a></li>
-                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://linkedin.com/in/0xgilbert">linkedin.com/in/0xgilbert</a></li>
-                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/chris-gilbert">github.com/chris-gilbert</a></li>
-                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/0xgilbert">@0xgilbert</a></li>
-				
+    <div class="container">
+        <!-- Sidebar Navigation & Profile -->
+        <aside class="sidebar">
+            <div class="profile-card">
+                <div class="profile-img-wrap">
+                    <!-- Assuming you still want to use the online image or you can map to local /assets/images/photo.jpg -->
+                    <img src="https://100x.dev/assets/images/photo.jpg" alt="Chris Gilbert">
+                </div>
+                <h1 class="name">Chris Gilbert</h1>
+                <span class="ens">0xgilbert.eth</span>
+                <p class="tagline">I build hyperstructures and decentralize things.</p>
+                
+                <ul class="contact-list">
+                    <li>
+                        <a href="mailto:chris@100x.dev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            chris@100x.dev
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://100x.dev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                            100x.dev
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/0xgilbert">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                            linkedin.com/in/0xgilbert
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/chris-gilbert">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                            github.com/chris-gilbert
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/0xgilbert">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+                            @0xgilbert
+                        </a>
+                    </li>
                 </ul>
             </div>
 
-		    <div class="education-container container-block">
-                <h2 class="container-block-title">Role</h2>
-				
-                <div class="item">
-                    <h4 class="title">Chief Technical Officer</h4>
-                    <h5 class="company">Elixir Protocol</span>
+            <div class="sidebar-section">
+                <h2 class="sidebar-title">Current Role</h2>
+                <div class="role-item">
+                    <h3 class="role-title">Chief Technical Officer</h3>
+                    <div class="role-company">Elixir Protocol</div>
                 </div>
             </div>
 
-            <div class="education-container container-block">
-                <h2 class="container-block-title">Previously</h2>
-				
-                <div class="item">
-                    <h5 class="title">Head of Engineering</h5>
-                    <h6 class="company">Tokensoft</h6>
-                    <h5 class="title">Blockchain R&D Lead</h5>
-                    <h6 class="company">IDEXX Laboratories</h6>
+            <div class="sidebar-section">
+                <h2 class="sidebar-title">Previously</h2>
+                <div class="role-item">
+                    <h3 class="role-title">Head of Engineering</h3>
+                    <div class="role-company">Tokensoft</div>
+                </div>
+                <div class="role-item">
+                    <h3 class="role-title">Blockchain R&D Lead</h3>
+                    <div class="role-company">IDEXX Laboratories</div>
                 </div>
             </div>
 
-		    <div class="education-container container-block">
-                <h2 class="container-block-title">Education</h2>
-				
-                <div class="item">
-                    <h4 class="degree">BS in Computer Science</h4>
-                    <h5 class="company">University of Maine</h5>
-                    <div class="time">2001 - 2006</div>
-                </div>	
-            </div>
-
-        </div>
-
-	    <div class="main-wrapper">
-
-            <section class="section summary-section">
-                <h2 class="section-title"><i class="fa fa-user"></i>Character Arc</h2>
-                <div class="summary">
-                    <hr />
-
-                    <p>
-                        My journey as a professional engineer began in the early 2000s in what can only be described as a web
-                        1.0 world. I worked on LAMP-stack applications for various industries, including insurance, online
-                        education, and publishing. These early experiences gave me a solid engineering foundation and imbued
-                        me with a deep passion for innovation.
-                    </p>
-
-                    <p>
-                        In 2012, I joined IDEXX where I stayed for a decade. I started as an individual contributor, but it was not
-                        long before I was given the opportunity to lead teams and drive impactful projects. During my tenure at
-                        the company, I was involved in the M&A process where I performed technical due diligence and led teambuilding efforts for acquired projects. Starting with a 3-person core engineering team I recruited from
-                        within the company, I would build 15–20-person engineering teams to work alongside me. During this
-                        period, IDEXX was named to the S&P 500, an index of the top 500 companies in the US economy and I was
-                        leading development on its flagship software products.
-                    </p>
-
-                    <p>
-                        My passion for innovation led me to explore blockchain technology. In fact, I was an early adopter of
-                        Bitcoin, mining it in late 2010. In 2017, I dove into Ethereum, Solidity, and dApp development and was
-                        fascinated by the potential of decentralized applications to transform various industries. I was the driving
-                        force behind the development of a Blockchain R&D department at IDEXX, where I led a team of 7 people
-                        for 2 years and developed a chain of custody auditing protocol that reported to the USDA and FDA. During
-                        this time, I gained deep expertise in the technical and operational aspects of blockchain technology and
-                        helped others within the company understand this emerging paradigm-shift.
-                    </p>
-
-                    <p>
-                        After realizing that enterprise blockchain was not going to take off I left the company, moving from a
-                        10,000-person multinational corporation to a 20-person startup. There, I worked on the problems of onchain
-                        identity, KYC, AML, and the interplay of those for Sybil protection during on-chain token sales. I was
-                        drawn to the startup environment, which offered more autonomy and opportunity to work on emerging
-                        problems in cutting-edge technologies.
-                    </p>
-
-                    <p>
-                        In February 2022, I met my co-founders and we started our company, Elixir. After months of
-                        brainstorming and whiteboarding, we were convinced that we could disrupt the centralized players in the
-                        Market Making space. For the past year and a half, we have been working to build a revolutionary financial
-                        primitive: decentralized algorithmic market making for central limit order books. As the CTO, I designed,
-                        architected, and coded the first iteration of the protocol—a full DPoS network that performs algorithmic
-                        market making on centralized exchange pairs. I built a team of 4 engineers, and we have successfully
-                        launched 2 testnet releases, onboarded 10,000 validators, and completed a Series A fundraise at a $150m
-                        valuation.
-                    </p>
-
-                    <p>
-                        As a technology leader, I bring a unique blend of technical ability, corporate business acumen, and
-                        leadership skills to the table. I am a problem solver to my core, and I thrive in complex fast-paced
-                        environments where the speed of innovation is the name of the game. I am truly passionate about
-                        blockchains and their potential to transform industries and excited to bring my extensive experience to
-                        the table.
-                    </p>
-
-                    <img class="signature" src="https://100x.dev/assets/images/sig.png" alt="Signed, Christopher Gilbert" />
-
-                    <!--
-                    <p><strong>Specialties:</strong> PHP, AWS, Docker, MySQL, Solidity, Linux</p>
-
-                    <p><strong>Skills:</strong>  Rust, R, C++, Java, SQL Server, Sybase, Oracle, Sockets, Threading, Multiprocessing</p>
-
-                    <p><strong>Focus:</strong> Microservices, Highly Available Systems, Load Testing, Distributed Systems</p>
-                    -->
-
+            <div class="sidebar-section">
+                <h2 class="sidebar-title">Education</h2>
+                <div class="role-item">
+                    <h3 class="role-title">BS in Computer Science</h3>
+                    <div class="role-company">University of Maine</div>
+                    <div class="role-time">2001 - 2006</div>
                 </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            
+            <!-- Character Arc Section -->
+            <section class="prose">
+                <h2 class="section-header">Character Arc</h2>
+                
+                <p>
+                    My journey as a professional engineer began in the early 2000s in what can only be described as a web
+                    1.0 world. I worked on LAMP-stack applications for various industries, including insurance, online
+                    education, and publishing. These early experiences gave me a solid engineering foundation and imbued
+                    me with a deep passion for innovation.
+                </p>
+
+                <p>
+                    In 2012, I joined IDEXX where I stayed for a decade. I started as an individual contributor, but it was not
+                    long before I was given the opportunity to lead teams and drive impactful projects. During my tenure at
+                    the company, I was involved in the M&A process where I performed technical due diligence and led teambuilding efforts for acquired projects. Starting with a 3-person core engineering team I recruited from
+                    within the company, I would build 15–20-person engineering teams to work alongside me. During this
+                    period, IDEXX was named to the S&P 500, an index of the top 500 companies in the US economy and I was
+                    leading development on its flagship software products.
+                </p>
+
+                <p>
+                    My passion for innovation led me to explore blockchain technology. In fact, I was an early adopter of
+                    Bitcoin, mining it in late 2010. In 2017, I dove into Ethereum, Solidity, and dApp development and was
+                    fascinated by the potential of decentralized applications to transform various industries. I was the driving
+                    force behind the development of a Blockchain R&D department at IDEXX, where I led a team of 7 people
+                    for 2 years and developed a chain of custody auditing protocol that reported to the USDA and FDA. During
+                    this time, I gained deep expertise in the technical and operational aspects of blockchain technology and
+                    helped others within the company understand this emerging paradigm-shift.
+                </p>
+
+                <p>
+                    After realizing that enterprise blockchain was not going to take off I left the company, moving from a
+                    10,000-person multinational corporation to a 20-person startup. There, I worked on the problems of onchain
+                    identity, KYC, AML, and the interplay of those for Sybil protection during on-chain token sales. I was
+                    drawn to the startup environment, which offered more autonomy and opportunity to work on emerging
+                    problems in cutting-edge technologies.
+                </p>
+
+                <p>
+                    In February 2022, I met my co-founders and we started our company, Elixir. After months of
+                    brainstorming and whiteboarding, we were convinced that we could disrupt the centralized players in the
+                    Market Making space. For the past year and a half, we have been working to build a revolutionary financial
+                    primitive: decentralized algorithmic market making for central limit order books. As the CTO, I designed,
+                    architected, and coded the first iteration of the protocol—a full DPoS network that performs algorithmic
+                    market making on centralized exchange pairs. I built a team of 4 engineers, and we have successfully
+                    launched 2 testnet releases, onboarded 10,000 validators, and completed a Series A fundraise at a $150m
+                    valuation.
+                </p>
+
+                <p>
+                    As a technology leader, I bring a unique blend of technical ability, corporate business acumen, and
+                    leadership skills to the table. I am a problem solver to my core, and I thrive in complex fast-paced
+                    environments where the speed of innovation is the name of the game. I am truly passionate about
+                    blockchains and their potential to transform industries and excited to bring my extensive experience to
+                    the table.
+                </p>
+
+                <!-- Signature Image inverted for dark mode in css -->
+                <img class="signature-img" src="https://100x.dev/assets/images/sig.png" alt="Signed, Christopher Gilbert" />
             </section>
 
-            <section class="section experiences-section">
-                <hr />
-                
-                <h2 class="section-title"><i class="fa fa-briefcase"></i>Chief Technical Officer</h2>
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <div class="time">2022 - Present</div>
-                        </div>
-                        <div class="company">Elixir Protocol</div>
-                    </div>
-                    <div class="details">
-                        <p>
-                            Co-founder and CTO of Elixir, all decisions run through me. I oversee all technical aspects of the company,
-                            including hiring, and managing a team of engineers, setting up development processes, and settling
-                            technical strategy. I designed and coded the first version of the protocol, a full DPoS network that does
-                            algorithmic market-making won centralized exchange pairs. I spun up our AWS infrastructure from
-                            scratch, which includes designing and implementing a secure and scalable cloud architecture to support
-                            our platform's growth to 15,000 users. I work closely with our CEO and COO to ensure that our technical
-                            decisions are aligned with our strategic priorities. In addition to my technical duties, I played a key role in
-                            fundraising efforts, meeting with investors and presenting our technology to business partners.
-                        </p>
-
-                        <p>
-                            Overall, my experience as a CTO has allowed me to leverage my technical expertise to build a successful
-                            blockchain protocol from the ground up while also managing and leading a team of engineers my ability
-                            to balance technical and business considerations combined with my deep knowledge of blockchain
-                            technology and cloud infrastructure has enable me to turn our vision into a secure, scalable, and
-                            innovative platform with widespread recognition in the industry.
-                        </p>
-
-                        <p><strong>Accomplishments</strong></p>
-
-                        <ul>
-                            <li>Developed and implemented a distributed consensus algorithm for our DPoS network, ensuring
-                                fast transaction processing times and high network throughput for algorithmic market making.</li>
-                            <li>Designing and implementing a high-performance market-making engine that uses a modified
-                                Avellaneda-Stoikov strategy for delta-neutral market-making on central limit order books.</li>
-                            <li>Implementing robust security mechanisms through token economics, dedicating a security
-                                budget and crypto-economic incentives to the protocol.</li>
-                            <li>Recruited, interviewed, hired, and trained all engineering staff and lead them the team as an
-                                individual contributor following Lean engineering methodologies.</li>
-                            <li>Designed and implemented all AWS architecture and DevOps practices, including IAM, ECS and
-                                EC2 infrastructure, Autoscaling, and data pipelines.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <hr />
-
-                <h2 class="section-title"><i class="fa fa-briefcase"></i>Head of Engineering</h2>
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <div class="time">2021 - 2022</div>
-                        </div>
-                        <div class="company">Tokensoft</div>
-                    </div>
-                    <div class="details">
-                        <p>
-                            Tokensoft brought me on after their successful Seed round to help accelerate and grow their R&D division
-                            in the wake of the CTO stepping back from day-to-day operations. I wore many hats at the company,
-                            serving as a manager and mentor to developers, an architect to the business team, and a director aligning
-                            engineering efforts across lines of business.
-                        </p>
-
-                        <p><strong>Accomplishments</strong></p>
-
-                        <ul>
-                            <li>Quickly assuming responsibility after a streak of departures of the core team.</li>
-                            <li>Finding process bottlenecks and targeting releases to accelerate token launches resulting in a 5x
-                                increase in launch volume and more revenue in Q4 than in Q1-3 combined.</li>
-                            <li>Merging engineering paradigms and reporting structure in the R&D organization across multiple
-                                lines of business.</li>
-                            <li>Leading the hiring processes across the company to build a world-class, remote-first engineering
-                                organization.</li>
-                        </ul>
-                    </div>
-                </div>
+            <!-- Experience Section -->
+            <section>
+                <h2 class="section-header">Experience</h2>
+                <div class="timeline">
                     
-                <hr />
-                
-                <h2 class="section-title"><i class="fa fa-briefcase"></i>Blockchain R&D Lead</h2>
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <div class="time">2017 - 2019</div>
+                    <!-- Role 1 -->
+                    <article class="experience-card">
+                        <header class="exp-header">
+                            <div>
+                                <h3 class="exp-role">Chief Technical Officer</h3>
+                                <div class="exp-company">Elixir Protocol</div>
+                            </div>
+                            <div class="exp-time">2022 - Present</div>
+                        </header>
+                        <div class="exp-body">
+                            <p>
+                                Co-founder and CTO of Elixir, all decisions run through me. I oversee all technical aspects of the company,
+                                including hiring, and managing a team of engineers, setting up development processes, and settling
+                                technical strategy. I designed and coded the first version of the protocol, a full DPoS network that does
+                                algorithmic market-making won centralized exchange pairs. I spun up our AWS infrastructure from
+                                scratch, which includes designing and implementing a secure and scalable cloud architecture to support
+                                our platform's growth to 15,000 users.
+                            </p>
                         </div>
-                        <div class="company">IDEXX Laboratories</div>
-                    </div>
-                    <div class="details">
-                        <p>
-                            While leading an engineering team at IDEXX, I conceived of a blockchain -based chain-of-custody system
-                            to track diagnostic samples across our global organization. I pitched this project and received funding for
-                            a research team to prototype solution built on an in-house blockchain. I brought together a cross-
-                            functional from sources across the company and led that team until the project’s end.
-                        </p>
+                        <ul class="exp-achievements">
+                            <li>Developed and implemented a distributed consensus algorithm for our DPoS network, ensuring fast transaction processing times and high network throughput for algorithmic market making.</li>
+                            <li>Designing and implementing a high-performance market-making engine that uses a modified Avellaneda-Stoikov strategy.</li>
+                            <li>Implementing robust security mechanisms through token economics, dedicating a security budget and crypto-economic incentives to the protocol.</li>
+                            <li>Recruited, interviewed, hired, and trained all engineering staff and lead them the team as an individual contributor following Lean engineering methodologies.</li>
+                            <li>Designed and implemented all AWS architecture and DevOps practices, including IAM, ECS and EC2 infrastructure, Autoscaling, and data pipelines.</li>
+                        </ul>
+                    </article>
 
-                        <p><strong>Accomplishments</strong></p>
+                    <!-- Role 2 -->
+                    <article class="experience-card">
+                        <header class="exp-header">
+                            <div>
+                                <h3 class="exp-role">Head of Engineering</h3>
+                                <div class="exp-company">Tokensoft</div>
+                            </div>
+                            <div class="exp-time">2021 - 2022</div>
+                        </header>
+                        <div class="exp-body">
+                            <p>
+                                Tokensoft brought me on after their successful Seed round to help accelerate and grow their R&D division.
+                                I wore many hats at the company, serving as a manager and mentor to developers, an architect to the business team, 
+                                and a director aligning engineering efforts across lines of business.
+                            </p>
+                        </div>
+                        <ul class="exp-achievements">
+                            <li>Finding process bottlenecks and targeting releases to accelerate token launches resulting in a 5x increase in launch volume.</li>
+                            <li>Merging engineering paradigms and reporting structure in the R&D organization across multiple lines of business.</li>
+                            <li>Leading the hiring processes across the company to build a world-class, remote-first engineering organization.</li>
+                        </ul>
+                    </article>
 
-                        <ul>
+                    <!-- Role 3 -->
+                    <article class="experience-card">
+                        <header class="exp-header">
+                            <div>
+                                <h3 class="exp-role">Blockchain R&D Lead</h3>
+                                <div class="exp-company">IDEXX Laboratories</div>
+                            </div>
+                            <div class="exp-time">2017 - 2019</div>
+                        </header>
+                        <div class="exp-body">
+                            <p>
+                                Conceived of a blockchain-based chain-of-custody system to track diagnostic samples across our global organization. 
+                                I pitched this project and received funding for a research team to prototype solutions built on an in-house blockchain.
+                            </p>
+                        </div>
+                        <ul class="exp-achievements">
                             <li>Architected an Ethereum-based blockchain system for chain-of-custody tracking.</li>
-                            <li>Recruited and led an innovation team which built out an Ethereum-based blockchain system for
-                                chain-of-custody tracking, auditing, and management.</li>
+                            <li>Recruited and led an innovation team which built out an Ethereum-based blockchain system for tracking, auditing, and management.</li>
                             <li>Developed and launched a private blockchain network internal to the organization.</li>
                             <li>Built a CI/CD pipeline for managing development cycle of Web3 tools.</li>
-                            <li>Oversaw the internal recruitment efforts across the organization, building to a 7-person team.</li>
-                            <li>Responsible for capital allocation requests and project management.</li>                                
                         </ul>
-                    </div>
-                </div>
-                    
-                <hr />
-                
-                <h2 class="section-title"><i class="fa fa-briefcase"></i>Technical Lead, Principle Engineer</h2>
+                    </article>
 
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <div class="time">2012 - 2021</div>
+                    <!-- Role 4 -->
+                    <article class="experience-card">
+                        <header class="exp-header">
+                            <div>
+                                <h3 class="exp-role">Technical Lead, Principle Engineer</h3>
+                                <div class="exp-company">IDEXX Laboratories</div>
+                            </div>
+                            <div class="exp-time">2012 - 2021</div>
+                        </header>
+                        <div class="exp-body">
+                            <p>
+                                Instrumental in the acquisition of IDEXX Neo, building a team and bringing the product’s code up to company standards.
+                                Spearheaded process improvements and restructured the team to increase the yearly release rate by a factor of 8x over two years.
+                            </p>
                         </div>
-                        <div class="company">IDEXX Laboratories</div>
-                    </div>
-                    <div class="details">
-                        <p>
-                            Originally hired as a build automation contractor, I was brought on full-time in less than a year and grew
-                            within the organization through multiple promotions, becoming the Technical Lead for two teams.
-                            Instrumental in the acquisition of IDEXX Neo, building a team and bringing the product’s code up to
-                            company standards. As the technical lead, I spearheaded process improvements and restructured the
-                            team to increase the yearly release rate by a factor of 8x over two years while increasing reliability and
-                            reducing defects. Working across the organization, and in close coordination with product, Neo became
-                            the flagship Practice Information Management Software in the US, Canadian, and Australian markets.
-                        </p>
-
-                        <p><strong>Accomplishments</strong></p>
-
-                        <ul>
-                            <li>Assembled an international, remote-first team of 15-25 people and through strong leadership
-                                mentored them to maximize their skills and potential.</li>
-                            <li>Lead the transition to Kanban and reorganized the team to take product from a monthly release
-                                cycle to multiple deploys per week.</li>
-                            <li>Implemented a strategy to support partnerships and product initiatives through integrations
-                                that provide customers with a rich ecosystem to maximize efficiency.</li>
-                            <li>Architected internal integrations with complimentary services, differentiating our product and
-                                leading to 29% year-over-year growth.</li>
-                            <li>Integrated third-party applications—Credit Card Processing, Diagnostic Orders, Electronic
-                                Medical Records, and Whiteboarding.</li>
-                            <li>Represented the development organization as a member of senior leadership team.</li>
+                        <ul class="exp-achievements">
+                            <li>Assembled an international, remote-first team of 15-25 people and mentored them to maximize their potential.</li>
+                            <li>Lead the transition to Kanban and reorganized the team to take product from a monthly release cycle to multiple deploys per week.</li>
+                            <li>Architected internal integrations with complimentary services, leading to 29% year-over-year growth.</li>
                         </ul>
-                    </div>
-                </div>
+                    </article>
 
+                </div>
             </section>
 
-            <section class="section projects-section">
+            <!-- Projects Section -->
+            <section>
+                <h2 class="section-header">Projects</h2>
+                <div class="projects-grid">
                     
-                <hr />
+                    <article class="project-card">
+                        <h3 class="project-title"><a href="https://code.google.com/archive/p/socksipy-branch/">SocksiPy</a></h3>
+                        <p class="project-desc">A Python SOCKS client module. Designed to allow developers of Python software that uses the Internet or another TCP/IP-based protocol. Included as part of the Google Cloud Platform’s Python API.</p>
+                    </article>
 
-                <h2 class="section-title"><i class="fa fa-code"></i>Projects</h2>
+                    <article class="project-card">
+                        <h3 class="project-title"><a href="http://sourceforge.net/projects/pyloris/">PyLoris</a></h3>
+                        <p class="project-desc">A scriptable tool for testing a server’s vulnerability to connection exhaustion denial of service (DoS) attacks. The leading Denial of Service attack against Apache for over a decade, heavily used globally.</p>
+                    </article>
 
-                <div class="item">
-                    <span class="project-title"><a href="https://code.google.com/archive/p/socksipy-branch/">SocksiPy</a></span> - <span class="project-tagline">
-                        A Python SOCKS client module. This module was designed to allow developers of
-                        Python software that uses the Internet or another TCP/IP-based. Included as part of the Google
-                        Cloud Platform’s Python API.</span>
-                </div>
-                
-                <div class="item">
-                    <span class="project-title"><a href="http://sourceforge.net/projects/pyloris/">PyLoris</a></span> - <span class="project-tagline">
-                        A scriptable tool for testing a server’s vulnerability to connection exhaustion denial of
-                        service (DoS) attacks. The leading Denial of Service attack against Apache for over a decade,
-                        heavily used by nation-states and hacktivists globally.
-                    </span>
                 </div>
             </section>
-        </div>
 
+        </main>
     </div>
-    
-    <footer class="footer">
-        <div class="text-center">
-            <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small><br>
-            <small class="copyright"><script>document.write(/\d{4}/.exec(Date())[0])</script> &copy; Chris Gilbert</small>
-        </div>
-    </footer>
 
-    <script type="text/javascript" src="https://100x.dev/assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="https://100x.dev/assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
-    <script type="text/javascript" src="https://100x.dev/assets/js/main.js"></script> 
+    <footer>
+        <div>&copy; <script>document.write(new Date().getFullYear())</script> Chris Gilbert</div>
+    </footer>
 </body>
 </html>
