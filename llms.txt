@@ -9,7 +9,7 @@
 - **Twitter**: @0xgilbert
 
 ## Current Role
-**Chief Technical Officer** at Elixir Protocol (2022 - Present)
+**Chief Technical Officer & Co-Founder** at Elixir Protocol (2022 - Present)
 Co-founder and CTO. Designed and coded the first version of the protocol, a full DPoS network that does algorithmic market-making on centralized exchange pairs. Spun up AWS infrastructure to support 15,000 users.
 
 ## Previously
@@ -25,7 +25,10 @@ My journey began in the early 2000s in a web 1.0 world, working on LAMP-stack ap
 
 Passionate about blockchain, I mined Bitcoin in 2010 and dove into Ethereum in 2017. I led a Blockchain R&D department at IDEXX, developing a chain-of-custody protocol for the USDA and FDA. I later worked at a startup on on-chain identity, KYC, AML, and Sybil protection.
 
-In February 2022, I co-founded Elixir to disrupt centralized Market Making. I architected our full DPoS network for central limit order books, launched 2 testnets, onboarded 10,000 validators, and our team completed a Series A at a $150m valuation.
+In February 2022, I co-founded Elixir to disrupt centralized Market Making. I architected our full DPoS network for central limit order books, launched 3 testnets and a successful mainnet, onboarded 20,000 validators, and our team completed a Series B at an $800M valuation.
+
+## CV
+- **Download**: [Chris_Gilbert.pdf](https://100x.dev/assets/Chris_Gilbert.pdf)
 
 ## Projects
 - **SocksiPy**: A Python SOCKS client module included in Google Cloud Platform’s Python API.
